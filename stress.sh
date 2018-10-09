@@ -2,6 +2,7 @@
 # file name: stress.sh
 
 cd /mnt/awe/condor/bsadkhin/stress
+#cd /mnt/condor/bsadkhin/stress
 
 filename=`date +%s%N`
 filename="$filename.stress.out"
