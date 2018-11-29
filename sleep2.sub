@@ -1,7 +1,8 @@
 # Unix submit description file
 # sleep.sub -- simple sleep job
 
-+Owner = "condor_pool"
+requirements = (Machine == "ci-core-condorworker-njs-privileged-BigMem-1")
+#+Owner = "condor_pool"
 executable              = sleep.sh
 log                     = sleep.log
 output                  = outfile.txt
