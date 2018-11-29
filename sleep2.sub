@@ -3,6 +3,7 @@
 
 requirements = (Machine == "ci-core-condorworker-njs-privileged-BigMem-1")
 #+Owner = "condor_pool"
++AccountingGroup = "TheCondor"
 executable              = sleep.sh
 log                     = sleep.log
 output                  = outfile.txt
