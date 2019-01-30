@@ -1,0 +1,4 @@
+JOB work sleep.sub 
+JOB clean cleanup.sub
+
+PARENT work CHILD clean
