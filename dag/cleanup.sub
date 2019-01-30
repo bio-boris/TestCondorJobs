@@ -1,0 +1,10 @@
+# Unix submit description file
+# cleanup.sub -- simple cleanup job
+
+executable              = cleanup.sh
+log                     = sleep.log
+output                  = outfile.txt
+error                   = errors.txt
+should_transfer_files   = Yes
+when_to_transfer_output = ON_EXIT
+queue
