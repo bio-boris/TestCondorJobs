@@ -8,7 +8,7 @@
 
 int main() {
     int i;
-    int gb = 1; // memory to consume in GB
+    int gb = 10; // memory to consume in GB
     int millisecondsToSleep = 60000;
     int secondsToSleep =  millisecondsToSleep * 1000;
 
