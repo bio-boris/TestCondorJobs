@@ -1,0 +1,15 @@
+# Unix submit description file
+# sleep.sub -- simple sleep job
+
+#requirements = (Machine == "ci-core-condorworker-njs-privileged-BigMem-1")
++Owner = "condor_pool"
+request_cpus=2
+request_memory=5000M
++AccountingGroup = "TheCondor"
+executable              = java_test.sh
+log                     = sleep.log
+output                  = outfile.txt
+error                   = errors.txt
+should_transfer_files   = Yes
+when_to_transfer_output = ON_EXIT
+queue
